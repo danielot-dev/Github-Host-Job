@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "metropolis";
+    src: url(./metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: "metropolissemibold";
+    src: url(./metropolis/Metropolis-SemiBold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: metropolis;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.logo  {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+.logo  span {
+    color: #ff4500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    font-family: metropolissemibold;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.register-btn {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+    
+
+.hero {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.tagline {
+    color: #ff4500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    line-height: 90px;
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+}
+
+.hero p{
+    line-height: 40px;
+    margin-bottom: 90px;
+}
+
+.hero h2 span {
+    color: blue;
+}
+
+.description {
+    color: #666;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}

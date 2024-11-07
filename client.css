@@ -1,0 +1,146 @@
+@font-face {
+    font-family: metropolis;
+    src: url( metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: metropolisr;
+    src: url( metropolis/Metropolis-Regular.otf);
+}
+/*General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.testimonial-section {
+    font-family: metropolis;
+    text-align: center;
+    padding: 50px;
+}
+
+.testimonial-section h2 {
+    font-family: metropolis;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.testimonial-section .highlight {
+    color: blue; 
+}
+
+.subtitle {
+    line-height: 30px;
+    font-family: metropolisr;
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+
+.client-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.testimonial-text {
+    line-height: 35px;
+    font-family: metropolisr;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.client-name {
+    margin-top: 60px;
+    font-family: metropolis;
+    font-weight: bold;
+    color: #333;
+}
+
+.client-role {
+    margin-top: 20px;
+    font-family: metropolisr;
+    color: #777;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer h3, .footer h4 {
+    font-family: metropolis;
+    margin-bottom: 10px;
+}
+
+.footer-about, .footer-links, .footer-social, .footer-contact {
+    flex: 1 1 200px;
+    margin: 10px 0;
+    font-family: metropolis;
+}
+
+.footer-about p {
+    font-size: 0.9em;
+    color: #bbb;
+    font-family: metropolisr;
+}
+
+.footer-about h3{
+    color: blue;
+    font-size: 28px;
+}
+
+.footer-links ul, .footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li, .footer-social ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a, .footer-social ul li a {
+    color: gray;
+    font-family: metropolisr;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover, .footer-social ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    color: grey;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    font-family: metropolisr;
+}
+
+.footer-bottom {
+    font-family: metropolisr;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: #bbb;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "metropolis";
+    src: url(./metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: "metropolisr";
+    src: url(./metropolis/Metropolis-Regular.otf);
+}
+
+body{
+    font-family: metropolis;
+}
+
+.steps {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.steps h2 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.steps h2 span {
+    color: blue;
+}
+
+.steps-description {
+    color: #666;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.step-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: left;
+}
+
+.step-card h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    color: grey;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+p{
+    font-family: metropolisr;
+}
